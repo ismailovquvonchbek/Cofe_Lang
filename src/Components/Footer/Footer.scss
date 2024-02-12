@@ -1,0 +1,42 @@
+.footer {
+    background: #2C343E;
+    padding: 47px 0;
+    margin-top: 168px;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.ftr__list {
+    display: flex;
+    list-style-type: none;
+    gap: 33px;
+    margin-left: 102px;
+}
+
+.ftr__link {
+    font-family: "Barlow" serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-decoration: none;
+    color: #83888F;
+    text-transform: uppercase;
+}
+
+.ftr__logos {
+    display: flex;
+    align-items: center;
+    margin-left: 368px;
+    gap: 24px;
+}
+
+path {
+    transition: all 0.3s ease;
+}
+
+path:hover {
+    fill: darkblue;
+}

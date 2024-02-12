@@ -1,0 +1,32 @@
+.header {
+   margin-top: 10px; 
+}
+.container {
+    width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    gap: 33px;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.header__select {
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+}

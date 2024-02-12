@@ -1,0 +1,77 @@
+.maps {
+    margin-top: 168px;
+    margin-bottom: 200px;
+
+    .container {
+        background: #2C343E;
+        height: 577px;
+        border-radius: 10px;
+    }
+
+    &__info {
+        width: 540px;
+        margin-left: 370px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    &__heading {
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &__text {
+        font-family: "Barlow" serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        gap: 30px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    &__item {
+        list-style-type: none;
+        width: 350px;
+        height: 382px;
+        background: #0E8784;
+        border-radius: 9px;
+    }
+
+    &__img {
+        margin-top: 72px;
+        margin-bottom: 56px;
+    }
+
+    &__head {
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        color: #FEFCF7;
+    }
+
+    &__p {
+        font-family: "Barlow" serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 255px;
+        margin-left: 47px;
+        color: #FEFCF7;
+    }
+}
