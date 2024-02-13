@@ -38,6 +38,8 @@ function Header({lang, setLangs}) {
                         <option value="uz">UZ</option>
                         <option value="en">EN</option>
                         <option value="ru">RU</option>
+                        <option value="ar">AR</option>
+                        <option value="kh">KH</option>
                     </select>
                 </div>
             </header>
